@@ -1,0 +1,131 @@
+12:47:39.450 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+12:47:40.787 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+12:47:42.429 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+12:47:42.432 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+13:19:56.480 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+13:19:56.493 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+13:19:56.494 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+13:19:56.499 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@511d5d04
+13:19:56.511 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+13:19:56.511 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+13:19:56.512 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+13:19:56.515 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+13:19:56.516 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+13:19:56.517 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+13:19:56.517 [main] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+13:19:56.518 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+13:19:56.519 [main] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @dc24521
+13:19:56.520 [main] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+13:19:56.520 [main] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+13:19:56.523 [main] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2147483648 bytes (maybe)
+13:19:56.523 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/fs/z63vxk9x5gj0m89gb4xndyk00000gp/T (java.io.tmpdir)
+13:19:56.523 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+13:19:56.524 [main] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
+13:19:56.524 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+13:19:56.524 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+13:19:56.525 [main] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+13:19:56.525 [main] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+13:19:56.531 [main] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+13:19:56.547 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+13:19:56.548 [main] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+13:19:56.780 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+13:19:56.780 [main] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+13:19:56.790 [main] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+13:19:56.798 [main] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+13:19:56.805 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+13:19:56.805 [main] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+13:19:56.823 [main] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+13:19:56.834 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+13:19:56.834 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+13:19:56.834 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+13:19:57.245 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 80493 (auto-detected)
+13:19:57.247 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+13:19:57.247 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+13:19:57.253 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+13:19:57.254 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+13:19:57.255 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 3c:06:30:ff:fe:40:ef:03 (auto-detected)
+13:19:57.295 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+13:19:57.295 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+13:19:57.295 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@10c178b6
+13:19:57.310 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+13:19:57.311 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+13:19:57.311 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+13:19:57.311 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+13:19:57.311 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+13:20:08.154 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+13:20:08.298 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x38e056eb5575df38
+13:20:12.244 [main] DEBUG testCases.TC_001_AccountRegistrationTest - Application log.....
+13:20:12.245 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+13:20:13.608 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+13:20:15.749 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+13:20:15.752 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+13:20:17.923 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+13:40:37.341 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+13:40:38.827 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+13:40:40.738 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+13:40:40.741 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+13:40:43.006 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+14:07:05.935 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+14:07:07.288 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+14:07:08.868 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+14:07:08.872 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+14:07:11.013 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+14:07:18.566 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+14:07:18.819 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+14:07:19.365 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+14:07:19.367 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+14:07:19.499 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+14:07:46.067 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+14:07:47.396 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+14:07:48.961 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+14:07:48.964 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+14:07:51.166 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+14:07:57.385 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+14:07:57.657 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+14:07:58.229 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+14:07:58.231 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+14:07:58.333 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+16:26:31.307 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+16:26:32.690 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+16:26:34.923 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+16:26:34.925 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+16:26:37.139 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+16:26:44.149 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+16:26:44.409 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+16:26:45.152 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+16:26:45.153 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+16:26:45.259 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+21:54:24.498 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+21:54:25.852 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+21:54:27.692 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+21:54:27.694 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+21:54:29.814 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+14:36:36.821 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+14:36:38.024 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+14:36:39.869 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+14:36:39.873 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+14:36:42.188 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+14:36:50.690 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+14:42:08.774 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+14:42:34.493 [main] INFO  testCases.TC_002_LoginTest - Starting TC_002_LoginTest
+11:48:34.549 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+11:48:35.664 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+11:48:37.653 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+11:48:37.657 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+11:48:39.973 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
+11:48:47.095 [main] INFO  testCases.TC_001_AccountRegistrationTest - ***  Starting TC_001_AccountRegistrationTest ***
+11:48:47.351 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on my account..
+11:48:47.877 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register.
+11:48:47.879 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+11:48:47.972 [main] ERROR testCases.TC_001_AccountRegistrationTest - Test Failed
