@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-07T11:48:09 IST" name="Suite" finished-at="2023-08-07T11:48:48 IST" duration-ms="38680">
+  <suite started-at="2023-08-09T14:15:13 IST" name="Suite" finished-at="2023-08-09T14:15:29 IST" duration-ms="16601">
     <groups>
     </groups>
-    <test started-at="2023-08-07T11:48:09 IST" name="Chrome Test" finished-at="2023-08-07T11:48:40 IST" duration-ms="30304">
+    <test started-at="2023-08-09T14:15:13 IST" name="Chrome Test" finished-at="2023-08-09T14:15:22 IST" duration-ms="9458">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12aba8be]" started-at="2023-08-07T11:48:09 IST" name="setup" finished-at="2023-08-07T11:48:34 IST" duration-ms="24695" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@34b7ac2f]" started-at="2023-08-09T14:15:13 IST" name="setup" finished-at="2023-08-09T14:15:20 IST" duration-ms="7195" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12aba8be]" started-at="2023-08-07T11:48:34 IST" name="test_account_Registration" finished-at="2023-08-07T11:48:39 IST" duration-ms="5437" status="FAIL">
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@34b7ac2f]" started-at="2023-08-09T14:15:20 IST" name="test_account_Registration" finished-at="2023-08-09T14:15:22 IST" duration-ms="2129" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
 at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
 at org.testng.AssertJUnit.fail(AssertJUnit.java:70)
 at testCases.TC_001_AccountRegistrationTest.test_account_Registration(TC_001_AccountRegistrationTest.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -63,15 +61,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12aba8be]" started-at="2023-08-07T11:48:39 IST" name="teardown" finished-at="2023-08-07T11:48:40 IST" duration-ms="120" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@34b7ac2f]" started-at="2023-08-09T14:15:22 IST" name="teardown" finished-at="2023-08-09T14:15:22 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_001_AccountRegistrationTest -->
     </test> <!-- Chrome Test -->
-    <test started-at="2023-08-07T11:48:40 IST" name="Firefox Test" finished-at="2023-08-07T11:48:48 IST" duration-ms="8327">
+    <test started-at="2023-08-09T14:15:22 IST" name="Firefox Test" finished-at="2023-08-09T14:15:29 IST" duration-ms="7123">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@576d5deb]" started-at="2023-08-07T11:48:40 IST" name="setup" finished-at="2023-08-07T11:48:47 IST" duration-ms="6934" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3427b02d]" started-at="2023-08-09T14:15:22 IST" name="setup" finished-at="2023-08-09T14:15:28 IST" duration-ms="5383" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -82,17 +80,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@576d5deb]" started-at="2023-08-07T11:48:47 IST" name="test_account_Registration" finished-at="2023-08-07T11:48:47 IST" duration-ms="878" status="FAIL">
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3427b02d]" started-at="2023-08-09T14:15:28 IST" name="test_account_Registration" finished-at="2023-08-09T14:15:29 IST" duration-ms="1302" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
 at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
 at org.testng.AssertJUnit.fail(AssertJUnit.java:70)
 at testCases.TC_001_AccountRegistrationTest.test_account_Registration(TC_001_AccountRegistrationTest.java:42)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
@@ -127,7 +123,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@576d5deb]" started-at="2023-08-07T11:48:47 IST" name="teardown" finished-at="2023-08-07T11:48:48 IST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@3427b02d]" started-at="2023-08-09T14:15:29 IST" name="teardown" finished-at="2023-08-09T14:15:29 IST" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

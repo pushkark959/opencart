@@ -30,7 +30,7 @@ public class TC_001_AccountRegistrationTest extends BaseClass{
         regpage.setPassword(randomAlphaNumeric());
         regpage.setPrivacyPolicy();
         regpage.clickContinue();
-        logger.info("Clicked on continue");
+        logger.info("Clicked on continue button");
         String confmsg = regpage.getConfirmationMsg();
         logger.info("Validating expected message");
         AssertJUnit.assertEquals(confmsg, "Your Account Has Been Created!","Test failed");
